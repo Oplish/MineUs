@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class HelloWorld { 
+    public static void main(String[] args) { 
+        System.out.println("Hello world!"); 
+        int a=1;
+        while(a<=100 ){
+            System.out.println(a); 
+            System.out.println(a*3); 
+            a++;
+            if(a%2==0){
+               continue;
+            }
+            System.out.println((a*a+13)/2);
+        }
+    }
+}
