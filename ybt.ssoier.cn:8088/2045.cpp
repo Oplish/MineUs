@@ -5,7 +5,6 @@ int main()
 {
 	int n,d,x,y;
 	cin>>n;
-	memset(a,0,sizeof(a));
 	d=1,x=0,y=n-1;
 	a[x][y]=1; 
 	while(d<n*n)
