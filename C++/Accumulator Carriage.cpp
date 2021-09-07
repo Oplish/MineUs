@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 int Oplish(long long Sort){
 	if(Sort==1){
